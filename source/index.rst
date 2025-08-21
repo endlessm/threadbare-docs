@@ -6,9 +6,7 @@ Add your content using ``reStructuredText`` syntax. See the
 documentation for details.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Visual Style
-   :name: sec-visual-style
+   :maxdepth: 2
 
-   visual_style/overview
-   visual_style/perspective
+   world/index
+   visual_style/index
