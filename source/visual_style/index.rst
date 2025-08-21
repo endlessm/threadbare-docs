@@ -6,3 +6,4 @@ Visual Style Guide
 
    overview
    perspective
+   cel_shading
