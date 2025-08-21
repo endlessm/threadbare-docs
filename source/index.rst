@@ -10,3 +10,4 @@ documentation for details.
 
    world/index
    visual_style/index
+   guides/index
