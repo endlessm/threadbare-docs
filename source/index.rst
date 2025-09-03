@@ -10,4 +10,5 @@ documentation for details.
 
    world/index
    visual_style/index
+   contributing/index
    guides/index
