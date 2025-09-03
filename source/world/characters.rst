@@ -1,6 +1,15 @@
 Characters
 ==========
 
+StoryWeaver
+---------------
+
+.. image:: img/story-weaver.jpg
+   :alt: Concept art of warrior-kind figure, wearing a thimbal for a hat, holding a needle for a sword and a button for a shield.
+
+Main character.
+
+
 LoreQuest Elder
 ---------------
 
@@ -27,3 +36,4 @@ Inkkeepers
 
 Threadbare's scattered purveyors of the finest quality Inks and dyes for story
 weaving binding… and the odd weapon upgrade too.
+
