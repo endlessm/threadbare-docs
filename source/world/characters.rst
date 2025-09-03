@@ -6,6 +6,7 @@ StoryWeaver
 
 .. image:: img/story-weaver.jpg
    :alt: Concept art of warrior-kind figure, wearing a thimbal for a hat, holding a needle for a sword and a button for a shield.
+   :width: 45%
 
 Main character.
 
