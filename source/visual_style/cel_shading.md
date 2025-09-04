@@ -13,3 +13,6 @@ No dithering! Dithering is a method for pixel artwork with a limited palette to 
 ![](img/celshading-no-dithering.png)
 
 Top lighting: When you do the 3-colors cel shading, imagine the sun is lighting the objects from above.
+
+<img width="47" height="46" alt="thimble" src="https://github.com/user-attachments/assets/726183f3-8f4f-4494-bc40-60981361576c" />
+
