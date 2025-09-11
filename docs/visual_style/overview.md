@@ -1,4 +1,6 @@
-# Visual Style Overview
+---
+title: Visual Style Overview
+---
 
 ## Overall Style
 
