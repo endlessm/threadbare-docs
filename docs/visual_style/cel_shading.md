@@ -1,4 +1,7 @@
-# Color Palette and Cel Shading
+---
+title: Color Palette and Cel Shading
+---
+
 
 Colors are not taken from a limited palette like in retro games, so feel free to pick any color. But the rendering of objects is usually done with 3 colors: the main fill color, a light variant and a dark variant. This is called cel shading.
 

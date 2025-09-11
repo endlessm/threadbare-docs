@@ -8,29 +8,35 @@ backend:
   squash_merges: true
   open_authoring: true
 
-media_folder: source/_static/uploads
-public_folder: _static/uploads
+#media_folder: source/_static/uploads
+#public_folder: _static/uploads
 publish_mode: editorial_workflow
 collections:
   - name: visual_style
-    label: Visual Style
-    folder: source/visual_style
+    label: Visual Style Guides
+    folder: docs/visual_style
     create: true
-    fields:
+    fields: &common-fields
       - label: Title
         name: title
         widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+        required: false
       - label: Body
         name: body
         widget: markdown
+
   - name: world
     label: World-building
     folder: source/world
     create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
+    fields: *common-fields
+
+  - name: guides
+    label: Guides
+    folder: source/world
+    create: true
+    # TODO: subdirectories
+    fields: *common-fields

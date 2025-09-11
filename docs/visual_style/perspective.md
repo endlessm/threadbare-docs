@@ -1,4 +1,6 @@
-# Threadbare's Perspective
+---
+title: Threadbare's Perspective
+---
 
 Top-down like isometric Zelda games. Imagine that the camera is in a diagonal floating above the characters. Something flat on the floor should be about 3 times wider than it is taller. Take for instance the character shadows:
 

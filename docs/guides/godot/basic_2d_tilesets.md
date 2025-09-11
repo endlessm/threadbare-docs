@@ -1,8 +1,8 @@
-Creating and Implementing Basic 2D Tilesets in Godot
-====================================================
+---
+title: Creating and Implementing Basic 2D Tilesets in Godot
+---
 
-.. youtube:: S_jXiouPwrQ
-   :width: 100%
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S_jXiouPwrQ?si=wtLnbFKvK12E76Mx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This is an introductory tile set guide for the development of a Threadbare
 StoryQuest, but could also be helpful to anyone looking to explore basic tileset

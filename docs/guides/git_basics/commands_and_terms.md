@@ -1,4 +1,6 @@
-# Git Commands and Terms
+---
+title: Git Commands and Terms
+---
 
 ## Git Commands
 
