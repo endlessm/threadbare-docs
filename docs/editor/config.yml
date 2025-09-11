@@ -36,14 +36,10 @@ collections:
     create: true
     media_folder: 'img'
     public_folder: 'img'
-    fields: &common-fields
+    fields:
       - label: Title
         name: title
         widget: string
-      - label: Subtitle
-        name: subtitle
-        widget: string
-        required: false
       - label: Body
         name: body
         widget: markdown
@@ -54,7 +50,13 @@ collections:
     create: true
     media_folder: 'img'
     public_folder: 'img'
-    fields: *common-fields
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
 
   - name: guides
     label: Guides
@@ -64,4 +66,18 @@ collections:
     # TODO: subdirectories
     media_folder: 'img'
     public_folder: 'img'
-    fields: *common-fields
+    path: '{{ subsection }}/{{ slug }}'
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: false
+      - label: Subsection
+        name: subsection
+        widget: select
+        options:
+          - git_basics
+          - godot
+      - label: Body
+        name: body
+        widget: markdown
