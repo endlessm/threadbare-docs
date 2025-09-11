@@ -3,7 +3,7 @@ Visual Style Guide
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
    overview
-   perspective
-   cel_shading
+   *
