@@ -12,10 +12,30 @@ media_folder: docs/uploads
 public_folder: uploads
 publish_mode: editorial_workflow
 collections:
+  - name: pages
+    label: Pages
+    files:
+      - label: Home Page
+        name: home
+        file: docs/index.md
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Subtitle
+            name: subtitle
+            widget: string
+            required: false
+          - label: Body
+            name: body
+            widget: markdown
+
   - name: visual_style
     label: Visual Style Guides
     folder: docs/visual_style
     create: true
+    media_folder: 'img'
+    public_folder: 'img'
     fields: &common-fields
       - label: Title
         name: title
@@ -30,13 +50,18 @@ collections:
 
   - name: world
     label: World-building
-    folder: source/world
+    folder: docs/world
     create: true
+    media_folder: 'img'
+    public_folder: 'img'
     fields: *common-fields
 
   - name: guides
     label: Guides
-    folder: source/world
+    label_singular: Guide
+    folder: docs/guides
     create: true
     # TODO: subdirectories
+    media_folder: 'img'
+    public_folder: 'img'
     fields: *common-fields
