@@ -8,11 +8,25 @@ backend:
 media_folder: source/_static/uploads
 public_folder: _static/uploads
 collections:
+  - name: visual_style
+    label: Visual Style
+    folder: source/visual_style
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
   - name: world
     label: World-building
     folder: source/world
     create: true
     fields:
+      - label: Title
+        name: title
+        widget: string
       - label: Body
         name: body
         widget: markdown
