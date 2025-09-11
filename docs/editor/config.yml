@@ -8,8 +8,8 @@ backend:
   squash_merges: true
   open_authoring: true
 
-#media_folder: source/_static/uploads
-#public_folder: _static/uploads
+media_folder: docs/uploads
+public_folder: uploads
 publish_mode: editorial_workflow
 collections:
   - name: visual_style
