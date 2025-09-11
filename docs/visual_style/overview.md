@@ -1,6 +1,7 @@
 ---
 title: Visual Style Overview
 ---
+![](img/icon-256.png)
 
 ## Overall Style
 
