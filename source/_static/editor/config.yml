@@ -6,11 +6,11 @@ backend:
   base_url: https://a4qdravtfb.execute-api.us-west-1.amazonaws.com
   auth_endpoint: /prod/auth
   squash_merges: true
+  open_authoring: true
 
 media_folder: source/_static/uploads
 public_folder: _static/uploads
 publish_mode: editorial_workflow
-open_authoring: true
 collections:
   - name: visual_style
     label: Visual Style
