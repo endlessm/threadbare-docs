@@ -1,9 +1,11 @@
 backend:
   name: github
   repo: endlessm/threadbare-docs
+  auth_scope: repo # this is needed to fork the private repo
   branch: main
   base_url: https://a4qdravtfb.execute-api.us-west-1.amazonaws.com
   auth_endpoint: /prod/auth
+  squash_merges: true
 
 media_folder: source/_static/uploads
 public_folder: _static/uploads
