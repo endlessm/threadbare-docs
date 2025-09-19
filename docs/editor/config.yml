@@ -14,6 +14,8 @@ publish_mode: editorial_workflow
 collections:
   - name: pages
     label: Pages
+    editor:
+      preview: false
     files:
       - label: Home Page
         name: home
@@ -36,6 +38,8 @@ collections:
     create: true
     media_folder: 'img'
     public_folder: 'img'
+    editor:
+      preview: false
     fields:
       - label: Title
         name: title
@@ -50,6 +54,8 @@ collections:
     create: true
     media_folder: 'img'
     public_folder: 'img'
+    editor:
+      preview: false
     fields:
       - label: Title
         name: title
@@ -67,6 +73,8 @@ collections:
     media_folder: 'img'
     public_folder: 'img'
     path: '{{ subsection }}/{{ slug }}'
+    editor:
+      preview: false
     fields:
       - label: Title
         name: title
