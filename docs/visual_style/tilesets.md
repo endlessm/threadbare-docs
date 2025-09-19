@@ -12,5 +12,8 @@ title: Tilesets
 
 ![Cliff tiles](img/cliff_tiles.png)
 
-___\
-Please note that they are squares, even if the drawing inside is in a top-down perspective, just like characters and props.
+
+
+* Please note that they are squares, even if the drawing inside is in a top-down perspective, just like characters and props.
+
+![Cliff tiles with red squares ](img/screenshot-2025-09-19-at-11.16.00.png)
