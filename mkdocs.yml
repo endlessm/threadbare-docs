@@ -3,21 +3,9 @@ site_name: Threadbare Haberdashery Handbook
 site_url: https://threadbare-docs.readthedocs.io/en/latest/
 theme:
   name: material
-nav:
-  - index.md
-  - Visual Style:
-    - visual_style/overview.md
-    - visual_style/perspective.md
-    - visual_style/cel_shading.md
-  - World:
-    - world/characters.md
-    - world/creatures.md
-    - world/enemies.md
-  - Guides:
-    - Git Basics:
-      - guides/git_basics/commands_and_terms.md
-    - Godot:
-      - guides/godot/basic_2d_tilesets.md
+plugins:
+  - search
+  - awesome-nav
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/images/
   - attr_list
